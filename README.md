@@ -2,8 +2,7 @@
 
 A Power BI project analyzing 5,000 call center records (Jan–Mar 2015) to evaluate operational efficiency, agent performance, and customer satisfaction — and to identify what actually drives (and doesn't drive) satisfaction.
 
-![Overview Page](screenshots/overview.png)
-![Analysis Zone Page](screenshots/analysis_zone.png)
+![Overview Page](assets/1-overview.png)
 
 ---
 
@@ -88,7 +87,12 @@ SWITCH(
 
 **Overview** — the executive snapshot: total calls, answer rate, resolution rate, average satisfaction, the daily call trend across Jan–Mar, the answered/unanswered split, and a department-level breakdown.
 
+![Overview Page](assets/1-overview.png)
+
+
 **Analysis Zone** — the deeper dive: agent-level performance (calls, resolution rate, speed, talk duration, satisfaction), monthly call volume, the satisfaction rating distribution, and an hour-by-day-of-week call volume heatmap for identifying peak times.
+
+![Analysis Zone Page](assets/2-analysis-zone.png)
 
 Both pages share the same slicers (Date, Department, Agent) and a consistent visual identity.
 
@@ -126,6 +130,12 @@ Every operational metric in this dataset looks healthy — resolution rate, answ
 
 ---
 
+## 🛠️ Tools Used
+
+Power BI · Power Query (M) · DAX
+
+---
+
 ## 🛠️ How to Use
 
 1. Download `Call-Center-Dataset.xlsx` and `Call Center Dashboard.pbix`.
@@ -134,6 +144,6 @@ Every operational metric in this dataset looks healthy — resolution rate, answ
 
 ---
 
-## 📬 Contact
+## 👤 Author
 
-Built by **Hesham Yahya** — [LinkedIn](#)
+Hesham — Finance graduate and Data Analyst, currently in the Digital Egypt Builders Initiative (DEBI) program.
